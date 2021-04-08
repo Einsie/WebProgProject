@@ -4,9 +4,11 @@
     position: fixed;
     top: 0;
     border-style: solid;
+    background-color: wheat;
  }
-#navi1 {background-color: wheat;}
-#navi2 {background-color: wheat;}
+#logo { float: left;}
+#navi1 {float: left;}
+#navi2 { float: right;}
 
 #sailio {width: 1000px; margin:auto;}
 #sisalto {width: 650px; float: left; background-color: thistle;

@@ -25,7 +25,7 @@
 
     <nav class="navBar">
      <div id="navi1">
-            <div>
+            <div id="logo">
                 <h1><a href="/./index.php">Peliyhteisö</a></h1>
             </div>
 
