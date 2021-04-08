@@ -24,19 +24,18 @@
 
 
     <nav class="navbar">
-            <div id="logo">
-                <h1><a href="/./index.php"><span>Peliyhteisö</span></a></h1>
+        <div id="logo">
+            <h1><a href="/./index.php"><span>Peliyhteisö</span></a></h1>
+        </div>
+
+        <div class="navcontent">
+            <div class="navi">
+                <a href="/./feedback/feedback.php" class= "navlink">info</a>
+                <a href="/./info/info.php" class= "navlink">palaute</a>  
             </div>
 
-            <div class="navcontent">
-                <div class="navi1">
-                    <a href="/./feedback/feedback.php" class= "navlink">info</a>
-                    <a href="/./info/info.php" class= "navlink">palaute</a>
-                </div>
-
-                <div class="navi2">
-                        <a href="/./signup/signup.php" class= "navlink">Rekisteröidy</a>
-                </div>
+            <div class="navi">
+                    <a href="/./signup/signup.php" class= "navlink">Rekisteröidy</a>    
             </div>
         </div>
     </nav>
