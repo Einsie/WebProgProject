@@ -22,62 +22,33 @@
 </head>
 
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+    <nav class="navBar">
+     <div id="navi1">
+            <div>
+                <h1><a href="">Peliyhteisö</a></h1>
+            </div>
+
+            <div>
+               <a href="#linkki">info</a>
+               <a href="#linkki">palaute</a>
+               <a href="#linkki">Rekisteröidy</a>
+            </div>
+
+            <div>
+                <a href="#linkki">linkki</a>
+                <a href="#linkki">linkki</a>
+            </div>
+            <h2 class="linkkiotsikko">Linkit</h2>
+            <li><a href="#linkki">linkki</a></li>
+            <li><a href="#linkki">linkki</a></li>
+        </div>
+    </nav>
+
 
     <div id="sailio">
-
-        <div id="navi1">
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-        </div>
-
-        <div id="navi2">
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-
-            <h2 class="linkkiotsikko">Linkit</h2>
-            <ul>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-                <li><a href="#linkki">linkki</a></li>
-            </ul>
-        </div>
-
         <div id="sisalto">
 
             <h1>Lorem ipsum</h1>
