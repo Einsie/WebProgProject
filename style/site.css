@@ -1,14 +1,10 @@
-div {display: inline;}
-
 .navBar {
     width: 100%;
     height: 75px;
     position: fixed;
-    float: left;
     top: 0;
     border-style: solid;
     background-color: wheat;
-    display: inline;
  }
 #logo { float: left;}
 #navi1 {float: left;}
