@@ -29,12 +29,12 @@
             </div>
 
             <div class="navcontent">
-                <div class="navbar-nav navi1">
+                <div class="navi1">
                     <a href="/./feedback/feedback.php" class= "navlink">info</a>
                     <a href="/./info/info.php" class= "navlink">palaute</a>
                 </div>
 
-                <div class="navbar-nav navi2">
+                <div class="navi2">
                         <a href="/./signup/signup.php" class= "navlink">Rekisteröidy</a>
                 </div>
             </div>
