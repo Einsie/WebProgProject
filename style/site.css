@@ -4,8 +4,8 @@
     position: fixed;
     top: 0;
  }
-#navi1 {width: 150px; float: left; background-color: wheat; margin: 2px; padding: 0px;}
-#navi2 {width: 150px; float: right; background-color: wheat; margin: 2px; padding: 0px;}
+#navi1 { float: left; background-color: wheat; margin: 2px; padding: 0px;}
+#navi2 { float: right; background-color: wheat; margin: 2px; padding: 0px;}
 
 #sailio {width: 1000px; margin:auto;}
 #sisalto {width: 650px; float: left; background-color: thistle;
