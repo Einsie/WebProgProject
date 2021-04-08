@@ -20,7 +20,7 @@
 <body class="custom-body">
 
     <nav class="navbar">
-        <div id="logo">
+        <div class="logo">
             <h1><a href="/./index.php">Peliyhteisö</a></h1>
         </div>
 
@@ -58,7 +58,7 @@
 
     </div>
 
-    
+
 <footer>
     
 </footer>
