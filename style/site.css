@@ -5,8 +5,8 @@
     top: 0;
     border-style: solid;
  }
-#navi1 { float: left; background-color: wheat; margin: 2px; padding: 0px;}
-#navi2 { float: right; background-color: wheat; margin: 2px; padding: 0px;}
+#navi1 {background-color: wheat;}
+#navi2 {background-color: wheat;}
 
 #sailio {width: 1000px; margin:auto;}
 #sisalto {width: 650px; float: left; background-color: thistle;
