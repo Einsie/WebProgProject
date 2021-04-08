@@ -5,6 +5,7 @@
     top: 0;
     border-style: solid;
     background-color: wheat;
+    display: inline;
  }
 #logo { float: left;}
 #navi1 {float: left;}
