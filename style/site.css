@@ -8,9 +8,9 @@
     background-color: wheat;
  }
 
-#logo {float: left;}
-#navi1 {float: left;}
-#navi2 { float: right;}
+#logo {float: left; display: inline;}
+#navi1 {float: left; display: inline;}
+#navi2 { float: right; display: inline;}
 
 #sailio {width: 1000px; margin:auto;}
 #sisalto {width: 650px; float: left; background-color: thistle;
