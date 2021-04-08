@@ -4,7 +4,10 @@
     border-style: solid;
     background-color: wheat;
  }
-
+.navcontent {display: inline;}
+.logo {display: inline;}
+.navi { display: inline;}
+.navlink {display: inline;}
 
 
 #sailio {width: 1000px;}
