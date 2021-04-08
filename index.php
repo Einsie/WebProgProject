@@ -23,19 +23,20 @@
 <body class="custom-body">
 
 
-    <nav class="navBar">
-     <div id="navi1">
+    <nav class="navbar">
             <div id="logo">
-                <h1><a href="/./index.php">Peliyhteisö</a></h1>
+                <h1><a href="/./index.php"><span>Peliyhteisö</span></a></h1>
             </div>
 
-            <div>
-               <a href="/./feedback/feedback.php">info</a>
-               <a href="/./info/info.php">palaute</a>
-            </div>
+            <div class="navcontent">
+                <div class="navbar-nav navi1">
+                    <a href="/./feedback/feedback.php">info</a>
+                    <a href="/./info/info.php">palaute</a>
+                </div>
 
-            <div>
-                 <a href="/./signup/signup.php">Rekisteröidy</a>
+                <div class="navbar-nav navi2">
+                        <a href="/./signup/signup.php">Rekisteröidy</a>
+                </div>
             </div>
         </div>
     </nav>
