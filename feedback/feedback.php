@@ -33,12 +33,10 @@
             <div>
                <a href="/./feedback/feedback.php">info</a>
                <a href="/./info/info.php">palaute</a>
-               <a href="/./signup/signup.php">Rekisteröidy</a>
             </div>
 
             <div>
-                <a href="#linkki">linkki</a>
-                <a href="#linkki">linkki</a>
+                 <a href="/./signup/signup.php">Rekisteröidy</a>
             </div>
         </div>
     </nav>
