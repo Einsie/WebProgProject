@@ -3,6 +3,7 @@
     height: 250px;
     position: fixed;
     top: 0;
+    border-style: solid;
  }
 #navi1 { float: left; background-color: wheat; margin: 2px; padding: 0px;}
 #navi2 { float: right; background-color: wheat; margin: 2px; padding: 0px;}
