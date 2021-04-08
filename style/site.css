@@ -2,11 +2,13 @@
     width: 100%;
     height: 75px;
     position: fixed;
+    display: inline;
     top: 0;
     border-style: solid;
     background-color: wheat;
  }
-#logo { float: left;}
+
+#logo {float: left;}
 #navi1 {float: left;}
 #navi2 { float: right;}
 
