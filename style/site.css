@@ -11,8 +11,6 @@
 #navlink {display: inline;}
 
 
-#sailio {width: 1000px; margin:auto;}
+#sailio {width: 1000px;}
 #sisalto {width: 650px; float: left; background-color: thistle;
-    border: 1px solid #000000; text-align: center; margin-left: 20px;}
-.linkkiotsikko { text-align: center;}
-ul{background-color: white;margin: 2px; padding: 15%;}
+    border: 1px solid #000000; text-align: center;}
