@@ -7,13 +7,13 @@
         <title>Peliyhteisö</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
-        <link rel="stylesheet" href="/./style/site.css">
+        <link rel="stylesheet" href="/./moodle/phpProjekti/style/site.css">
 
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-        <script src="/./js/myjs.js"></script> 
+        <script src="/./moodle/phpProjekti/js/myjs.js"></script> 
     </head>
 </head>
 
@@ -21,7 +21,7 @@
 
     <nav class="navbar navbar-expand-md position-sticky navbar-light">
         <div class="navbar-brand nav-link">
-            <h1><a href="/./index.php">Peliyhteisö</a></h1>
+            <h1><a href="/./moodle/phpProjekti/index.php">Peliyhteisö</a></h1>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse" aria-expanded="false" aria-controls="multiCollapse" >
             <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,13 @@
 
         <div class="collapse navbar-collapse justify-content-between" id="multiCollapse">
             <div class="navbar-nav">
-                <a class= "nav-item dropdown-item" href="/./feedback/feedback.php">Info</a>
-                <a class= "nav-item dropdown-item" href="/./info/info.php">Palaute</a>
-                <a class= "nav-item dropdown-item" href="/./games/games.php">Pelit</a>   
+                <a class= "nav-item dropdown-item" href="/./moodle/phpProjekti/info/info.php">Info</a>
+                <a class= "nav-item dropdown-item" href="/./moodle/phpProjekti/games/games.php">Pelit</a>   
+                <a class= "nav-item dropdown-item" href="/./moodle/phpProjekti/feedback/feedback.php">Palaute</a>
             </div>
 
             <div class="navbar-nav">
-                    <a class= "nav-item dropdown-item" href="/./signup/signup.php">Rekisteröidy</a>    
+                    <a class= "nav-item dropdown-item" href="/./moodle/phpProjekti/signup/signup.php">Rekisteröidy</a>    
             </div>
         </div>
     </nav>
@@ -45,21 +45,15 @@
 
     <div class="container" id="firstContainer">
         <div class="row">
-            <h1>Lorema ispasasasuasm</h1>
+            <h1>Anna palautetta</h1>
             <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius
-                    commodo facilisis. Donec ac elit vitae dui luctus fermentum. Cras non
-                    augue id massa placerat tempus a at leo. Aliquam rutrum sem massa.
-                    Praesent eu adipiscing sapien. Nullam tincidunt laoreet sem eget
-                    rhoncus. Maecenas eleifend lorem non tortor semper sed ultrices tortor
-                    commodo. Suspendisse rhoncus libero eget nibh congue dapibus. Aenean
-                    ornare ipsum eu magna rutrum vulputate. Cras a nibh justo. Aenean luctus
-                    faucibus molestie. Curabitur scelerisque, nulla non lacinia mollis,
-                    purus leo interdum ipsum, sit amet tincidunt sapien orci vitae velit.
-                    Sed non lectus id risus vulputate iaculis. Etiam ante quam, rhoncus ac
-                    ultrices quis, mollis et sapien. Aenean gravida hendrerit justo sed
-                    dictum.
-                </p>
+            <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Sähköpostiosoite</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nimi@esimerkki.com">
+                    <label for="exampleFormControlInput1" class="form-label">Aihe</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mikä on palautteesi aihe?">
+                    <button type="submit" class="btn btn-primary mb-3">Sumbit</button>
+                </div>
             </div>
 
             
