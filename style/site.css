@@ -1,15 +1,22 @@
-.navBar {
-    width: 100%;
-    top: 0;
-    border: 1px solid #000000;
-    background-color: wheat;
+.customaBody {
+    background: #9B89B3;
+}
+
+.navbar {
+    background-color: #FBEAFF;
  }
-.navcontent {display: inline;}
-.logo {display: inline;}
-.navi { display: inline;}
-.navlink {display: inline;}
 
 
-#sailio {width: 1000px;}
-#sisalto {width: 650px; background-color: thistle;
-    border: 1px solid #000000;}
+#firstContainer {
+    margin-top: 40px;
+}
+
+.container{
+    background-color: #efe4f0;
+    
+}
+
+
+.col {width: 100%;}
+
+
