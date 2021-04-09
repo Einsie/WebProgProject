@@ -11,7 +11,7 @@
     margin-top: 40px;
 }
 
-#burningImage {width:min-content;}
+#burningImage {max-width: 100%; max-height: 100%;}
 
 .container{
     background-color: #efe4f0;
