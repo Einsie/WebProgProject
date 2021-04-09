@@ -60,7 +60,7 @@
                     ultrices quis, mollis et sapien. Aenean gravida hendrerit justo sed
                     dictum.
                 </p>
-                <img src='/./image/ThisIsFine.jpg' alt="Only the world burns"/>
+                <img src='/./image/ThisIsFine.jpg' alt="Only the world burns" id="burningImage">
             </div>
 
 
